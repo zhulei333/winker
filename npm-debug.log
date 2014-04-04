@@ -1,0 +1,61 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'redis' ]
+2 info using npm@1.4.3
+3 info using node@v0.10.26
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose cache add [ 'redis', null ]
+6 verbose cache add name=undefined spec="redis" args=["redis",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'redis',
+7 verbose parsed url   path: 'redis',
+7 verbose parsed url   href: 'redis' }
+8 silly lockFile b840fc02-redis redis
+9 verbose lock redis C:\Users\zhuxiaolei\AppData\Roaming\npm-cache\b840fc02-redis.lock
+10 silly lockFile b840fc02-redis redis
+11 silly lockFile b840fc02-redis redis
+12 verbose addNamed [ 'redis', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile fb3bbc27-redis redis@
+15 verbose lock redis@ C:\Users\zhuxiaolei\AppData\Roaming\npm-cache\fb3bbc27-redis.lock
+16 silly addNameRange { name: 'redis', range: '*', hasData: false }
+17 verbose url raw redis
+18 verbose url resolving [ 'https://registry.npmjs.org/', './redis' ]
+19 verbose url resolved https://registry.npmjs.org/redis
+20 info trying registry request attempt 1 at 09:46:52
+21 http GET https://registry.npmjs.org/redis
+22 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+23 info trying registry request attempt 2 at 09:47:23
+24 http GET https://registry.npmjs.org/redis
+25 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+26 info trying registry request attempt 3 at 09:48:44
+27 http GET https://registry.npmjs.org/redis
+28 silly lockFile fb3bbc27-redis redis@
+29 silly lockFile fb3bbc27-redis redis@
+30 error network connect ETIMEDOUT
+30 error network This is most likely not a problem with npm itself
+30 error network and is related to network connectivity.
+30 error network In most cases you are behind a proxy or have bad network settings.
+30 error network
+30 error network If you are behind a proxy, please make sure that the
+30 error network 'proxy' config is set properly.  See: 'npm help config'
+31 error System Windows_NT 6.1.7600
+32 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "-g" "redis"
+33 error cwd C:\Users\zhuxiaolei\WebstormProjects\winker
+34 error node -v v0.10.26
+35 error npm -v 1.4.3
+36 error syscall connect
+37 error code ETIMEDOUT
+38 error errno ETIMEDOUT
+39 verbose exit [ 1, true ]

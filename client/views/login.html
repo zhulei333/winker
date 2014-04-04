@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Login</title>
+    <!--我在一个准备自慰却靠自己的意志力放弃自慰的下午，启动了我的梦想实现-->
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css"/>
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
+
+</head>
+<body>
+
+<div data-role="page" id="create">
+    <div data-role="header" data-position="fixed" style=" height: 48px">
+        <div style="text-align: right;margin: 10px;">
+
+            <h5 style="display: inline;height: 36px;margin: 8px">创建</h5>
+            <h5 style="display: inline;height: 36px; margin: 8px;border-left:1px solid gray;padding-left: 18px">登录</h5>
+        </div>
+
+    </div>
+    <div role="main" class="ui-content">
+        <br/>
+
+        <h1 style="text-align: center">Winker</h1>
+        <br/>
+        <input type="tel" data-clear-btn="true" placeholder="手机号码"/>
+        <input type="password" data-clear-btn="true" placeholder="密码"/>
+
+        <div class="ui-field-contain">
+            <button class="ui-btn ui-btn-inline" style="color: gray">短信验证</button>
+            <input type="text" placeholder="校验码"/>
+        </div>
+
+        <button class="ui-btn">创建winker</button>
+
+    </div>
+
+</div>
+
+<div data-role="page" id="login">
+    <div data-role="header" data-position="fixed" style=" height: 48px">
+        <div style="text-align: right;margin: 10px;">
+
+            <h5 style="display: inline;height: 36px;margin: 8px">创建</h5>
+            <h5 style="display: inline;height: 36px; margin: 8px;border-left:1px solid gray;padding-left: 18px">登录</h5>
+        </div>
+    </div>
+    <div role="main" class="ui-content">
+        <input type="tel" data-clear-btn="true" placeholder="手机号码"/>
+        <input type="password" data-clear-btn="true"/>
+        <br>
+        <button class="ui-btn">登录</button>
+        <a href="#" style="text-decoration:none">忘记密码？</a>
+    </div>
+</div>
+<div data-role="page" id="winkerList" >
+    <div data-role="header" style="height: 48px;display: none" class="ui-bar-d">
+        <a href="#" class=" ui-nodisc-icon ui-alt-icon ui-btn-left ui-btn ui-icon-bars ui-btn-icon-notext ui-corner-all"
+           style="background: none;border: 0;top: 50%;margin-top: -1em;opacity: .4">plus</a>
+        <a href="#"
+           class=" ui-nodisc-icon ui-alt-icon ui-btn-right ui-btn ui-icon-plus ui-btn-icon-notext ui-corner-all"
+           style="background: none;border: 0;top: 50%;margin-top: -1em;opacity: .4 ;margin-right: 100px">plus</a>
+        <a href="#"
+           class=" ui-nodisc-icon ui-alt-icon ui-btn-right ui-btn ui-icon-user ui-btn-icon-notext ui-corner-all"
+           style="background: none;border: 0;top: 50%;margin-top: -1em;opacity: .8 ;margin-right: 40px">plus</a>
+        <a href="#"
+           class=" ui-nodisc-icon ui-alt-icon ui-btn-right ui-btn ui-icon-carat-l ui-btn-icon-notext ui-corner-all"
+           style="background: none;border: 0;top: 50%;margin-top: -1em;opacity: .4 ;">plus</a>
+    </div>
+    <div data-role="header" style="height: 48px" class="ui-bar-d">
+        <a href="#"
+           class=" ui-nodisc-icon ui-alt-icon ui-btn-right ui-btn ui-icon-check ui-btn-icon-notext ui-corner-all"
+           style="background: none;border: 0;top: 50%;margin-top: -1em;opacity: .4 ;margin-right: 100px">plus</a>
+        <a href="#"
+           class=" ui-nodisc-icon ui-alt-icon ui-btn-right ui-btn ui-icon-delete ui-btn-icon-notext ui-corner-all"
+           style="background: none;border: 0;top: 50%;margin-top: -1em;opacity: .8 ;margin-right: 40px">plus</a>
+        <a href="#"
+           class=" ui-nodisc-icon ui-alt-icon ui-btn-right ui-btn ui-icon-grid ui-btn-icon-notext ui-corner-all"
+           style="background: none;border: 0;top: 50%;margin-top: -1em;opacity: .4 ;" >plus</a>
+    </div>
+
+    <div data-role="main" class='ui-content'>
+        <ul data-role="listview" data-filter="true" data-filter-placeholder="Search" data-inset="true" data-autodividers="true">        
+            <li><a href="#">Apple</a></li>  
+            <li><a href="#">Banana</a></li>    
+            <li><a href="#">Cherry</a></li>                
+            <li><a href="#">Cranberry</a></li>                
+            <li><a href="#">Grape</a></li>
+                
+            <li><a href="#">Orange</a></li>
+                
+            <li><a href="#">Apple</a></li>
+                
+            <li><a href="#">Banana</a></li>
+                
+            <li><a href="#">Cherry</a></li>
+                
+            <li><a href="#">Cranberry</a></li>
+                
+            <li><a href="#">Grape</a></li>
+                
+            <li><a href="#">Orange</a></li>
+        </ul>
+    </div>
+</div>
+
+
+<div data-role="page" id="wink">
+    <div data-role="header" data-position="fixed" style="height: 48px">
+
+    </div>
+</div>
+</body>
+</html>
